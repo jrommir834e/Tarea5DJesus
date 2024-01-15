@@ -55,6 +55,19 @@ public class Bicicleta {
         this.tipoCadena = tipoCadena;
     }
     
+    //toString
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Bicicleta{");
+        sb.append("numRuedas=").append(numRuedas);
+        sb.append(", modelo=").append(modelo);
+        sb.append(", tipoCadena=").append(tipoCadena);
+        sb.append('}');
+        return sb.toString();
+    }
+    
     
     
 }
