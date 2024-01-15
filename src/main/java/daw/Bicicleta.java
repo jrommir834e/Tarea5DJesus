@@ -15,4 +15,20 @@ public class Bicicleta {
     private int numRuedas;
     private String modelo;
     private String tipoCadena;
+
+    
+    //Constructor parametrizado
+    public Bicicleta(int numRuedas, String modelo, String tipoCadena) {
+        this.numRuedas = numRuedas;
+        this.modelo = modelo;
+        this.tipoCadena = tipoCadena;
+    }
+    
+    //Constructor por defecto
+    public Bicicleta(){
+        
+    }
+    
+    
+    
 }
