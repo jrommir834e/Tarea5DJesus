@@ -29,6 +29,32 @@ public class Bicicleta {
         
     }
     
+    //Getters y Setters
+
+    public int getNumRuedas() {
+        return numRuedas;
+    }
+
+    public void setNumRuedas(int numRuedas) {
+        this.numRuedas = numRuedas;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getTipoCadena() {
+        return tipoCadena;
+    }
+
+    public void setTipoCadena(String tipoCadena) {
+        this.tipoCadena = tipoCadena;
+    }
+    
     
     
 }
